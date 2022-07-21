@@ -20,7 +20,7 @@ jobs:
 
       - name: GitHub dependency vulnerability check
         if: ${{ github.event_name == 'pull_request_target' }}
-        uses: WillDaSilva/dependency-review-action@main
+        uses: WillDaSilva/dependency-review-action@v2.1.0
 
       - name: FOSSA dependency license check
         run: |
